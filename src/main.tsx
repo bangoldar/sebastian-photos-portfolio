@@ -1,6 +1,6 @@
 import React from 'react';
 import {createRoot} from 'react-dom/client';
 import Portfolio from './Portfolio';
-import {defaultPhotos,defaults} from './content';
+import {defaultPhotos,defaults,defaultPageCopy} from './content';
 import './style.css';
-createRoot(document.getElementById('root')!).render(<React.StrictMode><Portfolio initial={{photos:defaultPhotos,packages:defaults}}/></React.StrictMode>);
+createRoot(document.getElementById('root')!).render(<React.StrictMode><Portfolio initial={{photos:defaultPhotos,packages:defaults,pageCopy:defaultPageCopy}}/></React.StrictMode>);
